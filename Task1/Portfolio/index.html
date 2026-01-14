@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Gauri Jadhav | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <h2 class="logo">Gauri Jadhav</h2>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </nav>
+
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <h1>Gauri Jadhav</h1>
+        <p>
+          I am a full stack web developer with hands-on experience in building
+          complete web applications, from responsive user interfaces to
+          functional backend systems.
+        </p>
+        <a href="#contact" class="btn">Hire Me</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-img"> 
+        <img src="images/profile.png" alt="About Image" /> 
+      </div>
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          I am a second-year engineering student and a passionate full stack web
+          developer. I have built multiple real-world web applications with
+          fully functional backend logic, database integration, and responsive
+          frontend design. I enjoy developing scalable, user-focused solutions
+          and continuously improving my development skills through practical
+          project work.
+        </p>
+        <a
+          href="C:\Users\HP\Desktop\codsoft\Gauri_Jadhav_Resume fix.docx"
+          download
+          class="btn"
+          >Download Resume</a
+        >
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Responsive Web Design</li>
+        <li>Frontend Development</li>
+        <li>Backend Development</li>
+        <li>REST APIs</li>
+        <li>Database Integration</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="fade-up">
+      <h2>Projects</h2>
+
+      <div class="project-card">
+        <h3>MindBridge</h3>
+        <p>
+          A full stack mental wellness web application focused on user support
+          and structured data handling.
+        </p>
+        <ul>
+          <li>Frontend built using HTML, CSS, and JavaScript</li>
+          <li>Backend implemented for handling user data and logic</li>
+          <li>Database integration for storing application data</li>
+          <li>Responsive and user-friendly interface</li>
+        </ul>
+      </div>
+
+      <div class="project-card">
+        <h3>PathSense</h3>
+        <p>
+          A full stack navigation-based web application designed to provide
+          intuitive path guidance.
+        </p>
+        <ul>
+          <li>Dynamic frontend with clean UI design</li>
+          <li>Backend logic for processing route-related data</li>
+          <li>REST APIs used for data communication</li>
+          <li>Focus on performance and usability</li>
+        </ul>
+      </div>
+
+      <div class="project-card">
+        <h3>Wanderlust (Airbnb Clone)</h3>
+        <p>
+          A full stack web application inspired by Airbnb with real-world
+          features and data handling.
+        </p>
+        <ul>
+          <li>Property listing and dynamic content rendering</li>
+          <li>Backend-driven data management</li>
+          <li>Responsive layout for all devices</li>
+          <li>Clean and structured codebase</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+
+      <p>
+        📧 Email:
+        <a href="mailto:gaurijadhav@example.com"> gj2104638@gmail.com </a>
+      </p>
+
+      <p>📱 Phone: +91 7757909677</p>
+
+      <p>
+        🔗 GitHub:
+        <a href="https://github.com/Jadhavgau" target="_blank">
+          github.com/Jadhavgau
+        </a>
+      </p>
+
+      <p>
+        🔗 LinkedIn:
+        <a
+          href="https://www.linkedin.com/in/gauri-jadhav-b66765357"
+          target="_blank"
+        >
+          linkedin.com/in/gauri-jadhav
+        </a>
+      </p>
+    </section>
+
+    <footer>
+      <p>© 2026 Gauri Jadhav. All rights reserved.</p>
+    </footer>
+
+    <script>
+      const hamburger = document.querySelector('.hamburger');
+      const navbar = document.querySelector('.navbar');
+
+      hamburger.addEventListener('click', () => {
+        navbar.classList.toggle('active');
+      });
+    </script>
+  </body>
+</html>
+
