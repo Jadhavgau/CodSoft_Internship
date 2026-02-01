@@ -8,6 +8,7 @@ This repository contains all the web development tasks I complete during my inte
 ## Table of Contents
 
 1. [Task 1 – Portfolio](#task-1-portfolio)
+2. [Task 2 – [Task 2 Landing page]](#task-2-[task-2-Landing page])
 
 ---
 
@@ -25,7 +26,9 @@ You can open `index.html` in a browser to see the portfolio.
 
 ---
 
-## How to Run
-1. Clone the repository:
-```bash
-git clone https://github.com/Jadhavgau/CodSoft_Internship.git
+## Task 2 – [Task 2 Name]
+**Project Name:** [Task 2 Landing Page]  
+**Description:** [Landing page with dynamic ui]  
+**Technologies Used:** [HTML/CSS/ responsive UI]  
+
+
